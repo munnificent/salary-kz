@@ -1,5 +1,6 @@
 {
   "name": "salary-kz-2026",
+  "homepage": "https://munnificent.github.io/salary-kz",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -44,3 +45,5 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.48.0",
     "vite": "^7.3.1"
+  }
+}
