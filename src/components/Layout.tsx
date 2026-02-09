@@ -22,7 +22,7 @@ export function Layout({ children }: LayoutProps) {
                         Based on Tax Code 2026 Draft params.
                     </p>
                     <p>
-                        Built with React 19 + shadcn/ui.
+                        Designed & Developed by <a href="#" className="hover:underline">Munificent Studio</a>
                     </p>
                 </div>
             </footer>
