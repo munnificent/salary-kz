@@ -21,7 +21,7 @@ export default defineConfig({
       },
     },
     // Минификация кода
-    minify: 'terser',
+    minify: 'esbuild',
     sourcemap: false,
   },
 })
