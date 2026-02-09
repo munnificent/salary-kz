@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        // Single Page Apps for GitHub Pages
+        // Redirect to index.html
+        var path = window.location.pathname;
+        var origin = window.location.origin;
+        // Replace this with your repository name
+        var repo = '/salary-kz';
+
+        // If we are already at root, don't loop
+        if (path !== repo && path !== repo + '/') {
+            // Redirect to home, preserving path as query if complicated routing needed, 
+            // but for this simple app, just redirecting to home is safer to fix "White Screen".
+            window.location.replace(origin + repo + '/');
+        }
+    </script>
+    <meta http-equiv="refresh" content="0; url=/salary-kz/">
+</head>
+
+<body>
+    Redirecting...
+</body>
+
+</html>
