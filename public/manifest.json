@@ -1,20 +1,17 @@
 {
-  "name": "Зарплата РК 2026",
+  "name": "Калькулятор Зарплаты РК 2026",
   "short_name": "ЗП Калькулятор",
-  "start_url": ".",
+  "description": "Точный онлайн калькулятор зарплаты для Казахстана 2026. Расчет ОПВ, ВОСМС, ИПН и соцналога с учетом всех льгот.",
+  "start_url": "/salary-kz/",
+  "scope": "/salary-kz/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "pwa-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "pwa-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/salary-kz/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }
