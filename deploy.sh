@@ -13,10 +13,7 @@ fi
 REPO="${REPO:-munnificent/salary-kz}"
 BRANCH="${BRANCH:-gh-pages}"
 
-# Build the project
-npm run build
-
-# Navigate to dist directory
+# Navigate to dist directory (build artifacts from Travis CI script phase)
 cd dist
 
 # Create .nojekyll file (if it doesn't exist)
